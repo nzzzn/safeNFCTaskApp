@@ -111,13 +111,17 @@ public class MainActivity extends Activity implements OnClickListener, OnItemCli
 	@Override
 	public void onResume(){
 		super.onResume();
-		mAdapter.enableForegroundDispatch(this, mPendingIntent, mFilters, mTechLists);
+		//java.lang.RuntimeException: Unable to resume activity {project.safenfctaskapp/project.safenfctaskapp.MainActivity}: java.lang.NullPointerException
+		//발생시에 NFC가 없기 때문임. if(mAdapter != null) 추가
+		if(mAdapter != null) mAdapter.enableForegroundDispatch(this, mPendingIntent, mFilters, mTechLists);
 	}
 	
 	@Override
 	public void onPause() {
 		super.onPause();
-		mAdapter.disableForegroundDispatch(this);
+		//java.lang.RuntimeException: Unable to pause activity {project.safenfctaskapp/project.safenfctaskapp.MainActivity}: java.lang.NullPointerException
+		//발생시에 NFC가 없기 때문임. if(mAdapter != null) 추가
+		if(mAdapter != null) mAdapter.disableForegroundDispatch(this);
 	}
 	
 	@Override
