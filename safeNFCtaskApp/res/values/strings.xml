@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">safeNFCtaskApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty">태그가 없습니다</string>
+    <string name="custom">스킴코드를 작성합니다</string>
+    <string name="noname">이름을 입력하세요</string>
+    <string name="add">추가</string>
+    <string name="back">뒤로</string>
+    <string name="done">완료</string>
+    <string name="writing">태그를 입력중입니다</string>
+    <string name="nowifiid">이름을 입력하시오</string>
+    <string name="setting">설정</string>
+    <string name="reading">태그를 읽어주세요</string>
+    <string name="nowifipswd">비밀번호를 입력하시오</string>
+    <string name="working">작업중입니다</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="allow">허가</string>
+    <string name="reject">거부</string>
+    <string name="askable">askable</string>
+    <string name="tagadd">추가 - 커스텀태그를 작성합니다</string>
+    <string name="textview_main">Safe NFC Task App!</string>
+    <string name="btn_read">ReadMode</string>
+    <string name="btn_write">WriteMode</string>
+    <string name="btn_issuer1">Issuer1</string>
+    <string name="btn_cashier1">Cashier1</string>
+    <string name="btn_issuer2">Issuer2</string>
+    <string name="btn_cashier2">Cashier2</string>
+    <string name="btn_bonus">Bonus Check</string>
+    <string name="btn_testcase">테스트 실행</string>
+    <string name="title_activity_test_case">TestCase</string>
+	<string name="testcase_text">Wifi를 연결해 주세요.</string>
+	<string name="testcase_start">테스트시작</string>
+    
+	
+</resources>
