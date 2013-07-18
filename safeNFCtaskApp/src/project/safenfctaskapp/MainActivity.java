@@ -1,6 +1,7 @@
 /*
  * project.safenfctaskapp 어플리케이션에 사용될 엑티비티를 모아둔 페키지입니다.
  * MainActivity 어플리케이션이 실행될 때 사용될 메인 엑티비티
+ * github update
 */
 package project.safenfctaskapp;
 
