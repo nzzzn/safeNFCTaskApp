@@ -1,4 +1,4 @@
 safeNFCTaskApp
 ==============
 
-homepage : http://swlab.jnu.ac.kr/](http://swlab.jnu.ac.kr/)
+homepage : [http://swlab.jnu.ac.kr/](http://swlab.jnu.ac.kr/)
